@@ -37,9 +37,9 @@ O modelo segue a clássica estrutura em **Estrela**:
 
 ### Esquema Geral
 
-> Adicione aqui a imagem gerada no [dbdiagram.io](https://dbdiagram.io) ou no [draw.io](https://app.diagrams.net/).  
 
-📷 **Exemplo de espaço reservado para imagem do Star Schema:**
+
+
 
 ![Modelo Dimensional - Star Schema](./assets/diagrama.png)
 
@@ -96,7 +96,7 @@ O modelo segue a clássica estrutura em **Estrela**:
 
 ---
 
-## 🛠️ Código (DBML/SQL para dbdiagram.io)
+## 🛠️ Código
 
 ```sql
 Table Fato_Professor {
@@ -145,25 +145,8 @@ Table Dim_Tempo {
   trimestre int
   mes int
 }
-🚀 Como Executar
-Acesse dbdiagram.io
 
-Crie um novo diagrama
 
-Cole o código acima
-
-Exporte como PNG ou PDF para incluir no seu relatório ou apresentação
-
-📎 Estrutura de Pastas (Sugestão)
-pgsql
-Copiar código
-📂 projeto-modelagem-dimensional
- ├── 📄 README.md
- ├── 📂 images
- │    └── star-schema.png   # Imagem do diagrama
- ├── 📂 sql
- │    └── modelo_star_schema.sql
-✅ Conclusão
 
 ---
 
